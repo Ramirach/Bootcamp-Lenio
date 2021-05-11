@@ -1,0 +1,70 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #d6dabf; 
+    color: #114B5F; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tittle-nav {
+    margin: 0;
+}
+
+.navbar {
+    background: #252068;
+    color: #dac79d;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.menu {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  .grid-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2px 2px;
+    grid-template-areas:
+      "yaoming yaoming fuuu fuuu"
+      "yaoming yaoming challenge challenge"
+      "motherof motherof trollface trollface";
+  }
+  
+  .yaoming {
+       grid-area: yaoming; 
+    }
+  
+  .fuuu {
+       grid-area: fuuu; 
+    }
+  
+  .challenge {
+       grid-area: challenge; 
+    }
+  
+  .motherof {
+       grid-area: motherof; 
+    }
+  
+  .trollface {
+       grid-area: trollface; 
+    }
+
+footer {
+    display: flex;
+    align-items: center;
+    background: coral;
+    justify-content: center;
+}
+  
